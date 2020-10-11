@@ -93,9 +93,13 @@
           <form method="get" action="results.php" class="navbar-form">
             <div class="input-group">
               <input type="text" class="form-control" placeholder="search" name="user_query" required>
+              <!--  begin icon inside searchform  -->
+              <span class="input-group-btn">
                 <button type="submit" name="search" value="search" class="btn btn-primary">
                   <i class="fa fa-search"></i>
                 </button>
+              </span>
+              <!-- end icon inside searchform  -->
             </div>
           </form>
         </div>
@@ -106,6 +110,91 @@
     </div>
   </div>
   <!-- End Navbar -->
+  <!-- Slider -->
+  <div class="container" id="slider">
+    <div class="col-md-12">
+      <!-- Carousel slide start -->
+      <div class="carousel slide" id="myCarousel" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li class="active" data-target="#myCarousel" data-slide-to="0"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
+        <!-- Carousel inner -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="admin_area/slides_images/bicicleta_2.jpg" alt="Slider Img 1">
+          </div>
+          <div class="item">
+            <img src="admin_area/slides_images/cadmesbambini_1.jpg" alt="Slider Img 2">
+          </div>
+          <div class="item">
+            <img src="admin_area/slides_images/cozinha_5.jpg" alt="Slider Img 3">
+          </div>
+          <div class="item">
+            <img src="admin_area/slides_images/cozinhacor_1.jpg" alt="Slider Img 4">
+          </div>
+        </div>
+        <!-- End Carousel inner -->
+        <!-- Carousel left control -->
+        <a href="#myCarousel" class="left carousel-control" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <!-- Carousel right control -->
+        <a href="#myCarousel" class="right carousel-control" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+    <!-- End Carousel slide -->
+  </div>
+  <!-- End Slider -->
+  <!-- Advantages -->
+  <div id="advantages">
+    <div class="container">
+      <div class="same-height-row">
+        <div class="col-sm-4">
+          <div class="box same-height">
+            <!-- Icon -->
+            <div class="icon">
+              <i class="fa fa-heart"></i>
+            </div>
+            <!-- End Icon -->
+            <h3><a href="#">We love our costumer</a></h3>
+            <p>We know how to provide the best posible service ever</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="box same-height">
+            <!-- Icon -->
+            <div class="icon">
+              <i class="fa fa-tag"></i>
+            </div>
+            <!-- End Icon -->
+            <h3><a href="#">Best price</a></h3>
+            <p>Comparte us, we have the best price and quality</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="box same-height">
+            <!-- Icon -->
+            <div class="icon">
+              <i class="fa fa-thumbs-up"></i>
+            </div>
+            <!-- End Icon -->
+            <h3><a href="#">100% original</a></h3>
+            <p>We just offer you the best for your needs</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Advantages -->
+  
+
   <script type="text/javascript" src="js/jquery-331.min.js"></script>
 
 
