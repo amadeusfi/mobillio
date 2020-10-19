@@ -19,7 +19,7 @@
     </div>
     <div class="panel-body">
         <ul class="nav nav-pills nav-stacked category-menu">
-            <li><a href="#"><img src="assets/icons/kitchen.png"></a></li>
+            <li><a href="#">Cozinha</a></li>
             <li><a href="#">Dormitorio</a></li>
             <li><a href="#">Sala de Estar</a></li>
             <li><a href="#">Infantil</a></li>
