@@ -1,6 +1,6 @@
 <!-- Slider -->
-<div class="container" id="slider">
-    <div class="col-md-8">
+<div class="container-fluid" id="slider">
+    <div class="">
         <!-- Carousel slide start -->
         <div class="carousel slide" id="myCarousel" data-ride="carousel">
             <ol class="carousel-indicators">

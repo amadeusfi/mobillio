@@ -80,8 +80,8 @@ body{
 .navbar{
     background: rgb(226, 221, 221);
 }
-.navbar-collapse .right{
-    float: right;
+.navbar-collapse .left{
+    float: left;
 }
 .navbar-brand{
     float: left;
@@ -89,6 +89,10 @@ body{
     font-size: 18px;
     line-height: 20px;
     height: 70px;
+}
+.padding-nav {
+    
+    text-align: center;
 }
 .navbar-brand:hover,
 .navbar-brand:focus{
@@ -111,7 +115,7 @@ body{
     border-color: rgb(65, 179, 156);
 }
 #search .navbar-form{
-    float: right;
+    float: left;
 }
 #search{
     clear: both;
